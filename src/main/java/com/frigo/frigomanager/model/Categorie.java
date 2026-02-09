@@ -1,5 +1,8 @@
 package com.frigo.frigomanager.model;
 
+import lombok.Getter;
+
+@Getter
 public enum Categorie {
     LEGUMES("Légumes", "#28a745"),
     FRUITS("Fruits", "#fd7e14"),
@@ -23,11 +26,4 @@ public enum Categorie {
         this.couleur = couleur;
     }
 
-    public String getLabel() {
-        return label;
-    }
-
-    public String getCouleur() {
-        return couleur;
-    }
 }

@@ -1,5 +1,8 @@
 package com.frigo.frigomanager.model;
 
+import lombok.Getter;
+
+@Getter
 public enum StatutExpiration {
     EXPIRE("Expiré"),
     URGENT("Urgent"),
@@ -12,7 +15,4 @@ public enum StatutExpiration {
         this.label = label;
     }
 
-    public String getLabel() {
-        return label;
-    }
 }
